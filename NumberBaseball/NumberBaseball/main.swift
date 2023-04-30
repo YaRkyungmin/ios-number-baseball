@@ -53,12 +53,9 @@ func startBaseballGame() {
 }
 
 func generateRandomNumber() -> [Int] {
-    var randomNumbers = Set<Int>()
-
-    while randomNumbers.count < 3 {
-        randomNumbers.insert(Int.random(in: 1...9))
-    }
-    return Array(randomNumbers)
+    var randomNumbers = Array<Int>(1...9)
+    randomNumbers.shuffle()
+    return Array(randomNumbers[1...3])
 }
 
 func inputUserNumbers() -> [Int] {

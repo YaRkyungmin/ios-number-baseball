@@ -16,12 +16,16 @@
 
 
 
+
+
 ## 2. 팀원
 
 | MINT | 강경민 |
 | -------- | -------- | 
 |   <Img src = "https://i.imgur.com/ySVlJwk.jpg" width="200" height="200"/>  |  <Img src = "https://i.imgur.com/OSeygFq.png" width="200" height="200"/> |
 | <center>[github profile](https://github.com/mint3382)</center>  | <center>[github profile](https://github.com/YaRkyungmin)</center>     |
+
+
 
 
 
@@ -37,9 +41,13 @@
 
 
 
+
+
 ## 4. 시각화된 프로젝트 구조(다이어그램 등)
 
 ![](https://i.imgur.com/zwtZfQV.png)
+
+
 
 
 
@@ -48,6 +56,8 @@
 | 볼과 스트라이크를 판별하는 화면 | 정답이 3,2,1 일때 사용자 승리가 나타나는 화면 | 게임 종료 선택 시 나타나는 화면 |
 | -------- | -------- | -------- |
 | ![](https://i.imgur.com/lzen1LZ.gif)| ![](https://i.imgur.com/MPVZKuu.gif) | ![](https://i.imgur.com/kM6F6aS.gif) |
+
+
 
 
 
@@ -110,6 +120,8 @@ func generateRandomNumber() -> [Int] {
 ```
 기존 코드로 돌리는 방법도 있었지만 shuffle이라는 힌트를 받아 변경해보았습니다. shuffle 메서드는 배열을 무작위적으로 섞어주는 역할을 하기에 이를 통해 배열을 섞고 필요한 숫자 3개만 ArraySlice를 한다음 Array로 변환해서 반환해줬습니다. 코드도 더 간결해지고 시간복잡도도 줄일 수 있었습니다.
 time complexcity : O(n)
+
+
 
 
 ## 7. 참고 링크

@@ -15,6 +15,7 @@
 총 9번의 기회 내에 3 스트라이크를 맞추면 사용자 승리로 게임이 종료됩니다. 
 
 
+
 ## 2. 팀원
 
 | MINT | 강경민 |
@@ -22,11 +23,9 @@
 |   <Img src = "https://i.imgur.com/ySVlJwk.jpg" width="200" height="200"/>  |  <Img src = "https://i.imgur.com/OSeygFq.png" width="200" height="200"/> |
 | <center>[github profile](https://github.com/mint3382)</center>  | <center>[github profile](https://github.com/YaRkyungmin)</center>     |
 
-<\br>
+
 
 ## 3. 타임라인: 시간 순으로 프로젝트의 주요 진행 척도를 표시
-
-
 
 | 4월 24일 | 순서도 작성, 흐름 정리  |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -35,13 +34,14 @@
 | **4월 27일** | <center>**readline()으로 숫자를 입력받고 입력된 값에 문제가 없으면 컴퓨터의 임의의 수 3개와 볼, 스크라이크를 판별해서 출력할 수 있도록 구현**</center> |
 | **4월 28일** | <center>**로직 상 불필요한 부분들 리펙토링, 네이밍 수정**</center> |
 
-<\br>
+
 
 
 ## 4. 시각화된 프로젝트 구조(다이어그램 등)
+
 ![](https://i.imgur.com/zwtZfQV.png)
 
-<\br>
+
 
 ## 5. 실행 화면(기능 설명)
 
@@ -50,7 +50,6 @@
 | ![](https://i.imgur.com/lzen1LZ.gif)| ![](https://i.imgur.com/MPVZKuu.gif) | ![](https://i.imgur.com/kM6F6aS.gif) |
 
 
-<\br>
 
 ## 6. 트러블 슈팅
 
@@ -112,7 +111,6 @@ func generateRandomNumber() -> [Int] {
 기존 코드로 돌리는 방법도 있었지만 shuffle이라는 힌트를 받아 변경해보았습니다. shuffle 메서드는 배열을 무작위적으로 섞어주는 역할을 하기에 이를 통해 배열을 섞고 필요한 숫자 3개만 ArraySlice를 한다음 Array로 변환해서 반환해줬습니다. 코드도 더 간결해지고 시간복잡도도 줄일 수 있었습니다.
 time complexcity : O(n)
 
-<\br>
 
 ## 7. 참고 링크
 [Optional](https://github.com/apple/swift/blob/main/stdlib/public/core/Optional.swift)

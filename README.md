@@ -46,7 +46,7 @@
 
 ## 4. 시각화된 프로젝트 구조(다이어그램 등)
 
-![](https://i.imgur.com/zwtZfQV.png)
+![](https://i.imgur.com/VOTPIbN.png)
 
 
 
